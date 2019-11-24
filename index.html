@@ -35,10 +35,9 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Products</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item active" style="width: 150px">
                     <a class="nav-link" href="#">Contact Us</a>
                 </li>
-
             </ul>
         </div>
     </div>
@@ -51,12 +50,15 @@
                     <button class="cn-button" id="cn-button"><img src="css/img/logo.png"></button>
                 <div class="cn-wrapper opened-nav" id="cn-wrapper">
                     <ul>
-                        <li><a href="#"><span>COUNSELING</span></a></li>
-                        <li><a href="#"><span>DEVELOPMENT</span><span>& MANAGEMENT</span></a></li>
-                        <li><a href="#"><span>PRODUCTS</span></a></li>
-                        <li><a href="#"><span>COURSES</span></a></li>
-                        <li><a href="#"><span>SPORTS</span><span>ACADEMY</span></a></li>
-                        <li><a href="#"><span>SPORT EVENT</span></a></li>
+                        <li><a href="#"><span style="transform: rotate(95deg) skew(180deg); padding-left: 60px; ">COUNSELING</span></a></li>
+                        <li><a href="#">
+                            <span style="transform: rotate(55deg) skew(180deg); padding-left: 20px; padding-bottom: 20px; padding-top: 20px">DEVELOPMENT</span>
+                            <span style="transform: rotate(55deg) skew(180deg);padding-right: 80px; padding-bottom: 20px">& MANAGEMENT</span></a></li>
+                        <li><a href="#"><span style="transform: rotate(15deg) skew(180deg); padding-top: 40px">PRODUCTS</span></a></li>
+                        <li><a href="#"><span style="transform: rotate(-25deg) skew(180deg); padding-top: 25px; padding-right: 30px">COURSES</span></a></li>
+                        <li><a href="#"><span style="transform: rotate(-65deg) skew(180deg); padding-right: 90px">SPORTS</span>
+                            <span style="transform: rotate(-65deg) skew(180deg); padding-top: 20px">ACADEMY</span></a></li>
+                        <li><a href="#"><span style="transform: rotate(-105deg) skew(180deg); padding-left: 10px; padding-bottom:60px">SPORT EVENT</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -67,7 +69,7 @@
 <section class="about-us" id="aboutus">
     <div class="container">
         <h1>Who we are and Why we are here</h1>
-        <p>Pro Sports was established in Egypt as a sports investment company. while sports in egypt have a great
+        <p class="row">Pro Sports was established in Egypt as a sports investment company. while sports in egypt have a great
             amount of talent. it's suffering from an obvious weakness in the investment and marketing aspects due to
             the lack of specialized departments. Pro Sports provide modern and innovative solutions to these problems
             by providing a varity of services, products and expertise. Products and expertise in all facets of the
@@ -79,7 +81,7 @@
         </p>
         <h1 style="width: 20%">The Team</h1>
         <div class="row">
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md- col-sm-3">
                 <div class="team-member">
                     <div class="team-img">
                         <img src="https://image.freepik.com/free-photo/man-standing-with-a-black-t-shirt_1187-1045.jpg" alt="team member" class="img-responsive">
@@ -101,7 +103,7 @@
                     <span>founder &amp; ceo</span>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-3 col-sm-3">
                 <div class="team-member">
                     <div class="team-img">
                         <img src="https://image.freepik.com/free-photo/elegant-man-with-thumbs-up_1149-1595.jpg" alt="team member" class="img-responsive">
@@ -118,12 +120,30 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                    <div class="team-member">
+                        <div class="team-img">
+                            <img src="https://image.freepik.com/free-photo/elegant-man-with-thumbs-up_1149-1595.jpg" alt="team member" class="img-responsive">
+                        </div>
+                        <div class="team-hover">
+                            <div class="desk">
+                                <h4>Hello World</h4>
+                                <p>I love to introduce myself as a hardcore Web Designer.</p>
+                            </div>
+                            <div class="s-link">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 <div class="team-title">
                     <h5>Franklin Harbet</h5>
                     <span>HR Manager</span>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-3 col-sm-3">
                 <div class="team-member">
                     <div class="team-img">
                         <img src="https://image.freepik.com/free-photo/well-dressed-executive-with-crossed-arms_1098-3930.jpg" alt="team member" class="img-responsive">
@@ -151,16 +171,68 @@
     </div>
 </section>
 
+<section id="contactus">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mt-5" id="form_container">
+                <h2>Contact Us</h2>
+                <p>
+                    Please send your message below. We will get back to you at the earliest!
+                </p>
+                <form role="form" method="post" id="reused_form">
+
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <label for="message">
+                                Message:</label>
+                            <textarea class="form-control" type="textarea" id="message" name="message" maxlength="6000" rows="7"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <label for="name">
+                                Your Name:</label>
+                            <input type="text" class="form-control" id="name" name="name" required="">
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <label for="email">
+                                Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" required="">
+                        </div>
+                    </div>
 
 
 
-<script src="js/script.js"></script>
-<script src="js/demo2.js"></script>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button type="submit" class="btn btn-lg btn-default pull-right">Send →</button>
+                        </div>
+                    </div>
+
+                </form>
+                <div id="success_message" style="width:100%; height:100%; display:none; ">
+                    <h3>Posted your message successfully!</h3>
+                </div>
+                <div id="error_message" style="width:100%; height:100%; display:none; ">
+                    <h3>Error</h3>
+                    Sorry there was an error sending your form.
+
+                </div>
+            </div>
+            <div class="col-md-6 mt-5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13817.634865854703!2d30.9903208!3d30.0251301!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6cb7b6d9640d0efd!2sEden!5e0!3m2!1sen!2seg!4v1570892335480!5m2!1sen!2seg" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <script src="js/polyfills.js"></script>
-<script src="/js/jquery.min.js"></script>
 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://isotope.metafizzy.co/v1/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

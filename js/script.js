@@ -1,14 +1,15 @@
-function myFunction($param) {
-    $(document).ready(function () {
-        $(window).scroll(function () {
-            if ($(window).scrollTop() >= 50) {
-                $(".navbar").css("background-color", "#222");
-            } else {
-                $(".navbar").css("background-color", "transparent");
-            }
-        });
+$(document).ready(function() {
+    // Transition effect for navbar
+    $(window).scroll(function() {
+        // checks if window is scrolled more than 500px, adds/removes solid class
+        if($(this).scrollTop() > 300) {
+            $('.navbar').addClass('solid');
+        } else {
+            $('.navbar').removeClass('solid');
+        }
     });
-}
+});
+
 
 (function(){
 

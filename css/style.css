@@ -7,11 +7,19 @@
 .nav-item{
     width: 100px;
 }
-navbar.scrolled{
-    background:#000;
+.navbar-light .navbar-nav .active>.nav-link{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar.solid {
+    background-color: rgba(50,50,50,0.5);
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
 }
 /*homepage*/
 .home-page{
+    padding-top: 100px;
     background-image: url("../css/img/home-bg.jpg");
     height: 100vh;
     background-size: cover;
@@ -28,11 +36,11 @@ navbar.scrolled{
     bottom: 0;
 }
 #wrapper {
-    width: 95%; /* of body width */
+    width: 100%; /* of body width */
 }
 #wrapper>div {
     display: inline-block;
-    width: 90%; /* of wrapper width */
+    width: 100%; /* of wrapper width */
     margin: auto;
     text-align: left;
 }
@@ -64,7 +72,6 @@ navbar.scrolled{
     text-align: center;
     width: 100%;
     box-shadow: #939598;
-    height: 10vh;
 
 }
 
@@ -162,4 +169,18 @@ navbar.scrolled{
     text-transform: uppercase;
     color: #a5a5a5;
     letter-spacing: 1px;
+}
+#contactus{
+    background-color: #f4e5c2;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 25em) {
+
+    .codrops-icon span {
+        display: none;
+    }
+
 }
