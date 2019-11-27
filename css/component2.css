@@ -273,7 +273,7 @@ html,
 }
 @media screen and (max-width: 580px){
 	.csstransforms .cn-wrapper li{
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 	.cn-button img{
 		width: 75px;
