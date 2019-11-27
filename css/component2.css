@@ -17,12 +17,12 @@ html,
 .cn-button {
 	background-color: transparent;
 	position: fixed;
-	top: 50vh;
-	left: 43%;
+	top: 60%;
+	left: 44%;
 	z-index: 11;
 	padding-top: 0em;
-	width: 4.5em;
-	height: 4.5em;
+	width: 2.5em;
+	height: 2.5em;
 	border: none;
 	border-radius: 50%;
 	color: #52be7f;
@@ -40,7 +40,6 @@ html,
 
 .csstransforms .cn-wrapper {
 	position: absolute;
-	top: 50%;
 	width: 45em;
 	height: 45em;
 	border-radius: 50%;
@@ -62,7 +61,7 @@ html,
 .csstransforms .cn-wrapper:after{
   content:".";
   display:block;
-  font-size:2em;
+  font-size:2.5em;
   width:6.2em;
   height:6.2em;
   position: relative;
@@ -135,7 +134,7 @@ html,
 
 .csstransforms .cn-wrapper li a span {
 	position: relative;
-	top: 1.8em;
+	top: 3em;
 	display: block;
 	font-size: 16px;
 	font-weight: 700;
@@ -162,28 +161,28 @@ html,
 }
 
 .csstransforms .opened-nav li:first-child {
-	transform: rotate(-25deg) skew(55deg);
+	transform: rotate(-28deg) skew(55deg);
 }
 
 .csstransforms .opened-nav li:nth-child(2) {
 
-	transform: rotate(15deg) skew(55deg);
+	transform: rotate(12deg) skew(55deg);
 }
 
 .csstransforms .opened-nav  li:nth-child(3) {
-	transform: rotate(55deg) skew(55deg);
+	transform: rotate(52deg) skew(55deg);
 }
 
 .csstransforms .opened-nav li:nth-child(4) {
-	transform: rotate(95deg) skew(55deg);
+	transform: rotate(92deg) skew(55deg);
 }
 
 .csstransforms .opened-nav li:nth-child(5) {
-	transform: rotate(135deg) skew(55deg);
+	transform: rotate(132deg) skew(55deg);
 }
 
 .csstransforms .opened-nav li:nth-child(6) {
-	transform: rotate(175deg) skew(55deg);
+	transform: rotate(172deg) skew(55deg);
 }
 
 
@@ -240,6 +239,9 @@ html,
 		width: 200px;
 		height: 200px;
 	}
+	.csstransforms .cn-wrapper {
+		padding-top: 30%;
+	}
 }
 @media screen and (min-width : 771px) and (max-width: 1050px){
 	.csstransforms .cn-wrapper li{
@@ -249,7 +251,9 @@ html,
 		width: 100px;
 		height: 100px;
 	}
+
 }
+
 @media screen and (min-width : 580px) and (max-width: 770px){
 	.csstransforms .cn-wrapper li{
 		font-size: 1.4em;
@@ -276,8 +280,10 @@ html,
 		font-size: 0.8em;
 	}
 	.cn-button img{
-		width: 75px;
-		height: 75px;
+		width: 50px;
+		height: 50px;
+
+
 	}
 	.csstransforms .cn-wrapper li a span {
 		position: relative;
@@ -289,5 +295,9 @@ html,
 		color: white;
 		transform: rotate(25deg) scale(1);
 	}
+	.csstransforms .cn-wrapper {
+		padding-top: 25%;
+	}
+
 }
 
