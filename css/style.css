@@ -3,6 +3,8 @@
     height: 80px;
     background-color: transparent;
     position: fixed;
+    border-bottom: rgba(60, 66, 69, 0.7) solid 2px;
+
 }
 .navbar-brand img{
     height: 60px;
@@ -20,6 +22,7 @@
     background-color: rgba(50,50,50,0.5);
     transition: background-color 1s ease 0s;
     box-shadow: 0 0 4px grey;
+    border-bottom: none;
 }
 /*homepage*/
 .home-page{
@@ -179,9 +182,13 @@
 .cm-items{
     background-color: #e5dfdf;
 }
+.cm-items h2{
+    text-decoration: underline;
+}
 .cm-items img{
-    hight:500px;
-    width:500px;
+    height:300px;
+    width: 100%;
+    position: relative;
 
 }
 #contactus{

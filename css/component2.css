@@ -252,7 +252,7 @@ html,
 }
 @media screen and (min-width : 580px) and (max-width: 770px){
 	.csstransforms .cn-wrapper li{
-		font-size: 1.5em;
+		font-size: 1.4em;
 	}
 	.cn-button img{
 		width: 75px;
@@ -262,17 +262,18 @@ html,
 		position: relative;
 		top: 1.8em;
 		display: block;
-		font-size: 9px;
+		font-size: 8px;
 		font-weight: 700;
 		text-transform: uppercase;
 		color: white;
 		transform: rotate(25deg) scale(1);
+		padding-left: 10px;
 	}
-	
+
 }
 @media screen and (max-width: 580px){
 	.csstransforms .cn-wrapper li{
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 	.cn-button img{
 		width: 75px;
