@@ -27,16 +27,13 @@
         <div class="collapse navbar-collapse " id="collapsibleNavId">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0 float-right">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link" href="#about-a">About Us</a>
                 </li>
                 <li class="nav-item active" style="width: 150px">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#contact-a">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -53,15 +50,15 @@
                     <button class="cn-button" id="cn-button"><img src="css/img/logo.png"></button>
                 <div class="cn-wrapper opened-nav" id="cn-wrapper">
                     <ul>
-                        <li><a href="#"><span style="transform: rotate(98deg) skew(180deg); text-align: center; position: relative; padding-left: 5%">COUNSELING</span></a></li>
-                        <li><a href="#">
+                        <li><a href="#counseling-a"><span style="transform: rotate(98deg) skew(180deg); text-align: center; position: relative; padding-left: 5%">COUNSELING</span></a></li>
+                        <li><a href="#development-1">
                             <span style="transform: rotate(58deg) skew(180deg); text-align: center; position: relative; padding-left: 3%">DEVELOPMENT</span>
                             <span style="transform: rotate(58deg) skew(180deg);text-align: center; position: relative">& MANAGEMENT</span></a></li>
-                        <li><a href="#"><span style="transform: rotate(18deg) skew(180deg); text-align: center; position: relative">PRODUCTS</span></a></li>
-                        <li><a href="#"><span style="transform: rotate(-23deg) skew(180deg); text-align: center; position: relative ">COURSES</span></a></li>
-                        <li><a href="#"><span style="transform: rotate(-63deg) skew(180deg); text-align: center; position: relative">SPORTS</span>
+                        <li><a href="#products-a"><span style="transform: rotate(18deg) skew(180deg); text-align: center; position: relative">PRODUCTS</span></a></li>
+                        <li><a href="#courses-a"><span style="transform: rotate(-23deg) skew(180deg); text-align: center; position: relative ">COURSES</span></a></li>
+                        <li><a href="#academy-a"><span style="transform: rotate(-63deg) skew(180deg); text-align: center; position: relative">SPORTS</span>
                             <span style="transform: rotate(-63deg) skew(180deg); text-align: center; position: relative">ACADEMY</span></a></li>
-                        <li><a href="#"><span style="transform: rotate(-103deg) skew(180deg); text-align: center; position: relative;padding-left: ; padding-bottom: 5%">SPORT EVENT</span></a></li>
+                        <li><a href="#events-a"><span style="transform: rotate(-103deg) skew(180deg); text-align: center; position: relative;padding-left: ; padding-bottom: 5%">SPORT EVENT</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -200,8 +197,8 @@
 
         <div class="row mt-5" >
             <div class="col-md-6">
-                <h2>Current Courses</h2>
-                <a name="courses-a"></a>
+                <h2>Development and Management</h2>
+                <a name="development-a"></a>
                 <p>Looking to further your career? We provide a variety of certifies curses by the best professionals in sports field</p>
             </div>
             <div class="col-md-6">
@@ -216,15 +213,22 @@
                 <a name="products-a"></a>
                 <p>Prosport, the home of sports products. In prosport,  we aim to provide our customers high quality products,
                     amongst the biggest collection, at a very competitive pricing, delivering a premium service.</p>
+                <div class="col-sm-12 form-group">
+                    <button type="submit" class="btn btn-lg btn-default pull-right">
+                        <a href="products.html" style="color: white">More Info→</a>
+                    </button>
+                </div>
             </div>
             <div class="col-md-6">
                 <img src="css/img/i-3.jpg">
             </div>
+
         </div>
 
 
         <div class="row mt-5">
             <div class="col-md-6">
+                <a name="courses-a"></a>
                 <h2>Courses</h2>
                 <p>In Prosport we provide courses the clever way, with highly experienced instructors, and fully equipped
                 premises, excellence in guaranteed</p>
@@ -237,6 +241,7 @@
 
         <div class="row mt-5">
             <div class="col-md-6">
+                <a name="academy-a"></a>
                 <h2>Sports Academy</h2>
                 <p>In Prosport sports academy, we provide we provide academies that stands out from the rest, with highly
                     experienced instructors, state-of-art equipment and fully maintained premises, prosport aims to provide nothing
@@ -250,6 +255,7 @@
 
         <div class="row mt-5">
             <div class="col-md-6">
+                <a name="events-a"></a>
                 <h2>Sports Events</h2>
                 <p>Stay tuned for prosport events, we strive to organise multiple events through the year to gather like-minded
                     people.</p>
@@ -258,20 +264,21 @@
                 <img src="css/img/i-6.jpg">
             </div>
         </div>
-        
+
     </div>
 </section>
 
 
-<section class="contactus">
+<section class="contactus" >
     <div class="container">
         <div class="row">
+            <a name="contact-a"></a>
             <div class="col-md-6 mt-5 form_container">
                 <h2>Contact Us</h2>
                 <p>
                     Please send your message below. We will get back to you at the earliest!
                 </p>
-                <form role="form" method="post" id="reused_form">
+                <form role="form" method="post" id="reused_form" action="handler.php">
 
                     <div class="row">
                         <div class="col-sm-12 form-group">
@@ -290,6 +297,11 @@
                             <label for="email">
                                 Email:</label>
                             <input type="email" class="form-control" id="email" name="email" required="">
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <label for="phone">
+                                Phone:</label>
+                            <input type="number" class="form-control" id="phone" name="phone" required="">
                         </div>
                     </div>
 
