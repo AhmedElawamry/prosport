@@ -15,9 +15,10 @@ html,
 
 
 .cn-button {
-	position: absolute;
-	top: 30vh;
-	right: 50%;
+	background-color: transparent;
+	position: fixed;
+	top: 50vh;
+	left: 43%;
 	z-index: 11;
 	padding-top: 0em;
 	width: 4.5em;
@@ -34,9 +35,7 @@ html,
 }
 .cn-button img{
 	width: 200px;
-	height: 200px;
-	top: 50%;
-	left: 50%;
+	height: 170px;
 }
 
 .csstransforms .cn-wrapper {
@@ -253,20 +252,41 @@ html,
 }
 @media screen and (min-width : 580px) and (max-width: 770px){
 	.csstransforms .cn-wrapper li{
+		font-size: 1.5em;
+	}
+	.cn-button img{
+		width: 75px;
+		height: 75px;
+	}
+	.csstransforms .cn-wrapper li a span {
+		position: relative;
+		top: 1.8em;
+		display: block;
+		font-size: 9px;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: white;
+		transform: rotate(25deg) scale(1);
+	}
+	
+}
+@media screen and (max-width: 580px){
+	.csstransforms .cn-wrapper li{
 		font-size: 1.2em;
 	}
 	.cn-button img{
 		width: 75px;
 		height: 75px;
 	}
-}
-@media screen and (max-width: 580px){
-	.csstransforms .cn-wrapper li{
-		font-size: 0.9em;
-	}
-	.cn-button img{
-		width: 50px;
-		height: 50px;
+	.csstransforms .cn-wrapper li a span {
+		position: relative;
+		top: 1.8em;
+		display: block;
+		font-size: 7px;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: white;
+		transform: rotate(25deg) scale(1);
 	}
 }
 
