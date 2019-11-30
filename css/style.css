@@ -1,3 +1,11 @@
+@font-face {
+    font-family: font;
+    src: url("fonts/octin college rg.ttf") format("ttf");
+}
+p{
+    font-family: font;
+}
+
 /*NAVBAR*/
 .navbar{
     height: 80px;
@@ -26,22 +34,12 @@
 }
 /*homepage*/
 .home-page{
-    padding-top: 100px;
     background-image: url("../css/img/home-bg.jpg");
     height: 100vh;
     background-size: cover;
     position: relative;
-    filter: grayscale(50%);
 }
-.overlay {
-    background-color: black;
-    opacity: 0.9;
-    position: relative;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
+
 #wrapper {
     width: 100%; /* of body width */
 }
@@ -179,19 +177,46 @@
     letter-spacing: 1px;
 }
 
-.cm-items{
-    background-color: #e5dfdf;
+/*cn-items*/
+
+.image-box {
+    /* Here's the trick */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), var(--image-url) center center;
+
+    /* Here's the same styles we applied to our content-div earlier */
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.cm-items h2{
-    text-decoration: underline;
-}
-.cm-items img{
-    height:300px;
-    width: 100%;
+.image-box h2{
+    font-family: font;
+    font-size: 60px;
     position: relative;
+    color: white;
+    text-align: center;
+
 
 }
-#contactus{
+.image-box p{
+    font-family: font;
+    position: relative;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 24px;
+}
+.image-box button{
+    margin: auto;
+    display: block;
+}
+.image-box button:hover{
+    background-color: #52be7f;
+}
+
+.contactus{
     background-color: rgba(60, 66, 69, 0.7) ;
     color: black;
 }

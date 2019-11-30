@@ -16,9 +16,9 @@ html,
 
 .cn-button {
 	background-color: transparent;
-	position: fixed;
+	position: absolute;
 	top: 60%;
-	left: 44%;
+	left: 42%;
 	z-index: 11;
 	padding-top: 0em;
 	width: 2.5em;
@@ -39,7 +39,8 @@ html,
 }
 
 .csstransforms .cn-wrapper {
-	position: absolute;
+	top: 25%;
+	position: relative;
 	width: 45em;
 	height: 45em;
 	border-radius: 50%;
@@ -118,9 +119,8 @@ html,
 	height: 14.5em;
 	border-radius: 50%;
 	background: white;
-	background: -webkit-radial-gradient(transparent 35%, #429a67 35%);
-	background: -moz-radial-gradient(transparent 35%, #429a67 35%);
 	background: radial-gradient(transparent 35%, black 35%);
+	opacity: 0.7;
 	color: #fff;
 	text-align: center;
 	text-decoration: none;
@@ -277,7 +277,7 @@ html,
 }
 @media screen and (max-width: 580px){
 	.csstransforms .cn-wrapper li{
-		font-size: 0.8em;
+		font-size: 1.1em;
 	}
 	.cn-button img{
 		width: 50px;
@@ -296,7 +296,7 @@ html,
 		transform: rotate(25deg) scale(1);
 	}
 	.csstransforms .cn-wrapper {
-		padding-top: 40%;
+		width: 100%;
 	}
 
 }
