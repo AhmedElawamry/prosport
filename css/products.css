@@ -31,8 +31,8 @@ a:focus {
     height: 30vw;
 }
 .portfolioFilter {
-    margin: auto;
-    width: 40%;
+    margin-left: 15%;
+    width: 80%;
     display: inline-block;
     padding-bottom: 30px;
 }

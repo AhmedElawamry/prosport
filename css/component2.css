@@ -18,7 +18,7 @@ html,
 	background-color: transparent;
 	position: absolute;
 	top: 60%;
-	left: 42%;
+	left: 40%;
 	z-index: 11;
 	padding-top: 0em;
 	width: 2.5em;
@@ -34,7 +34,7 @@ html,
 	-webkit-backface-visibility: hidden;
 }
 .cn-button img{
-	width: 200px;
+	width: 240px;
 	height: 170px;
 }
 
@@ -284,7 +284,7 @@ html,
 		font-size: 1.1em;
 	}
 	.cn-button img{
-		width: 65px;
+		width: 75px;
 		height: 65px;
 
 
@@ -305,7 +305,7 @@ html,
 	}
 	.cn-button{
 		top: 42%;
-		padding-right: 2%;
+		padding-right: 1%;
 	}
 	.cn-button img{
 		width: 75px;
