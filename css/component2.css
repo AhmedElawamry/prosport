@@ -231,7 +231,28 @@ html,
 	display: none;
 }
 
+@media screen and (max-width : 1500px) {
+	.csstransforms .cn-wrapper li{
+		font-size: 2.5em;
+	}
+	.cn-button img{
+		width: 200px;
+		height: 200px;
+	}
+	.csstransforms .cn-wrapper {
+		padding-top: 30%;
+	}
+}
+@media screen and (min-width : 771px) and (max-width: 1050px){
+	.csstransforms .cn-wrapper li{
+		font-size: 2em;
+	}
+	.cn-button img{
+		width: 100px;
+		height: 100px;
+	}
 
+}
 
 @media screen and (min-width : 580px) and (max-width: 770px){
 	.csstransforms .cn-wrapper li{
@@ -280,10 +301,10 @@ html,
 	}
 	.csstransforms .cn-wrapper {
 		width: 100%;
-		top: 17%;
+		top: 10%;
 	}
 	.cn-button{
-		top: 48%;
+		top: 40%;
 		padding-left: 0;
 	}
 	.cn-button img{
