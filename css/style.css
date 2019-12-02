@@ -2,6 +2,10 @@
     font-family: font;
     src: url("fonts/octin college rg.ttf") format("ttf");
 }
+
+body{
+    background-color: rgba(60, 66, 69, 0.7);
+}
 p{
     font-family: font;
 }
@@ -57,7 +61,7 @@ p{
     margin:auto;
     padding-top: 100px;
 
-    background-color: rgba(60, 66, 69, 0.7) ;
+    background-color: transparent ;
 
 
 }
@@ -226,7 +230,7 @@ p{
 }
 
 .contactus{
-    background-color: rgba(60, 66, 69, 0.7) ;
+    background-color: transparent;
     color: black;
 }
 .form_container iframe{
