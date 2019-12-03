@@ -1,23 +1,36 @@
-$(document).ready(function() {
-    $("#toggle").click(function() {
-        var elem = $("#toggle").text();
-        if (elem == "Read More") {
-            //Stuff to do when btn is in the read more state
-            $("#toggle").text("More Info");
-            $("#text").slideDown();
-        } else {
-            //Stuff to do when btn is in the read less state
-            $("#toggle").text("More Info");
-            $("#text").slideUp();
-        }
-    });
+$('.moreless-button').click(function() {
+    $('.moretext').slideToggle();
+    if ($('.moreless-button').text() == "Read more") {
+        $(this).text("Read less")
+    } else {
+        $(this).text("Read more")
+    }
 });
 
+(function($) {
+
+    // Open Lightbox
+    $('.open-lightbox').on('click', function(e) {
+        e.preventDefault();
+        var image = $(this).attr('href');
+        $('html').addClass('no-scroll');
+        $('body').append('<div class="lightbox-opened"><img src="' + image + '"></div>');
+    });
+
+    // Close Lightbox
+    $('body').on('click', '.lightbox-opened', function() {
+        $('html').removeClass('no-scroll');
+        $('.lightbox-opened').remove();
+    });
+
+})(jQuery);
 
 $(window).load(function(){
+    //$container.isotope({ filter: '.equipment: not(dyt)' });
+
     var $container = $('.portfolioContainer');
     $container.isotope({
-        filter: '*',
+        filter: '.equipment:not(.dyt)',
         animationOptions: {
             duration: 750,
             easing: 'linear',
@@ -34,11 +47,13 @@ $(window).load(function(){
             filter: selector,
             animationOptions: {
                 duration: 750,
-                easing: 'linear',
                 queue: false
             }
         });
         return false;
     });
+
 });
+
+
 
