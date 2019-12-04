@@ -312,7 +312,7 @@ html,
 	}
 
     #l1{
-        paddingright: -20px;
+        padding-top: 10px;
     }
     #l2{
         padding-left: 10px;
@@ -325,8 +325,8 @@ html,
         padding-top: 10px;
     }
     #l5{
-        padding-right: 15px;
-        padding-top: 25px;
+        padding-top: 10px;
+		padding-right: 5px;
     }
     #l6{
         padding-right: 10px;
@@ -335,7 +335,7 @@ html,
         padding-right: 10px;
     }
 	#l8{
-		padding-right: 30px;
+		padding-right: 20px;
 	}
 }
 
