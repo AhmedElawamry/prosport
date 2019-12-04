@@ -17,41 +17,20 @@
     font-size: 18px;
     font-weight: 600;
 }
-h1{
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
-    color: white;
-    width: 50%;
-    border: #323232;
-    padding: 10px;
-    text-align: center;
-    background-color: #323232;
-    margin-bottom: 28px;
-    font-size: 28px;
-}
-p{
-    padding-bottom: 0;
-    margin-bottom: 0;
-    font-size: 18px;
-}
+
+
+/*************************************************/
+
 a:focus {
     outline: none;
 }
-#product-gallery{
-    height: 30vw;
-    position: sticky;
-}
+
 .portfolioFilter {
-    margin-left: 15%;
-    width: 80%;
-    display: inline-block;
-    padding-bottom: 30px;
+    padding: 15px 18%;
 }
 
 .portfolioFilter a {
-    margin-right: 6px;
+    margin-right: 0;
     color: #666;
     text-decoration: none;
     border: 1px solid #ccc;
@@ -68,14 +47,15 @@ a:focus {
 .portfolioContainer{
     border: 1px solid #eee;
     border-radius: 3px;
-    position: absolute;
 }
 img {
     margin: 5px;
+    width:250px;
     height: 250px;
-    width: 250px;
-    display: block;
-
+}
+.isotope-item {
+    z-index: 2;
+    padding-bottom: 70px;
 }
 
 .isotope-hidden.isotope-item {
@@ -96,23 +76,37 @@ img {
     -moz-transition-property: height, width;
     transition-property: height, width;
 }
-.equipment{
-    position: relative;
-}
+
 .isotope .isotope-item {
     -webkit-transition-property: -webkit-transform, opacity;
     -moz-transition-property: -moz-transform, opacity;
     transition-property: transform, opacity;
 }
-p{
-    text-align: center;
-}
-span{
-    position: relative;
-    margin: auto;
-    text-align: center;
-}
 
+
+/*************************************************/
+
+
+h1{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    color: white;
+    width: 50%;
+    border: #323232;
+    padding: 10px;
+    text-align: center;
+    background-color: #323232;
+    margin-bottom: 28px;
+    font-size: 28px;
+}
+p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    text-align: center;
+}
 
 #text{
     display:none;
@@ -151,9 +145,6 @@ button{
 .dyt h1{
     margin-top: 2%;
 
-}
-.equipment{
-    height: 60%;
 }
 .text-style p{
     color: red;
