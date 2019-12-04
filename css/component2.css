@@ -230,7 +230,7 @@ html,
 .no-csstransforms .cn-button {
 	display: none;
 }
-@media screen and (max-width : 1800px) {
+@media screen and (max-width : 1200px) {
 	.csstransforms .cn-wrapper li{
 		font-size: 2.5em;
 	}
