@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
     var hiddenInfo = $(".hidden-info-1");
     var readMoreTrigger = $(".read-more-trigger-1");
