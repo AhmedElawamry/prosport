@@ -231,18 +231,7 @@ html,
 	display: none;
 }
 
-@media screen and (max-width : 1500px) {
-	.csstransforms .cn-wrapper li{
-		font-size: 2.5em;
-	}
-	.cn-button img{
-		width: 200px;
-		height: 200px;
-	}
-	.csstransforms .cn-wrapper {
-		padding-top: 30%;
-	}
-}
+
 @media screen and (min-width : 771px) and (max-width: 1050px){
 	.csstransforms .cn-wrapper li{
 		font-size: 2em;
