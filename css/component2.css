@@ -60,18 +60,18 @@ html,
 
 /*cover to prevent extra space of anchors from being clickable*/
 .csstransforms .cn-wrapper:after{
-  content:".";
-  display:block;
-  font-size:2.5em;
-  width:6.2em;
-  height:6.2em;
-  position: relative;
-  left: 50%;
-  margin-left: -3.1em;
-  top:50%;
-  border-radius: 50%;
-  z-index:10;
-  color: transparent;
+	content:".";
+	display:block;
+	font-size:2.5em;
+	width:6.2em;
+	height:6.2em;
+	position: relative;
+	left: 50%;
+	margin-left: -3.1em;
+	top:50%;
+	border-radius: 50%;
+	z-index:10;
+	color: transparent;
 }
 
 .csstransforms .opened-nav {
@@ -151,7 +151,7 @@ html,
 	background: radial-gradient(transparent 35%, #449e6a 35%);
 }
 .csstransforms .cn-wrapper li a:focus {
-    position: fixed; /* fix the displacement bug in webkit browsers when using tab key */
+	position: fixed; /* fix the displacement bug in webkit browsers when using tab key */
 }
 
 .csstransforms .opened-nav li {
@@ -279,6 +279,8 @@ html,
 	}
 
 }
+
+/******************mobile view********************/
 @media screen and (max-width: 580px){
 	.csstransforms .cn-wrapper li{
 		font-size: 1.1em;
@@ -308,33 +310,32 @@ html,
 		padding-right: 2%;
 		padding-top:5%
 	}
-	
 
-    #l1{
-        padding-top: 10px;
-    }
-    #l2{
-        padding-left: 10px;
-        padding-top: 10px;
-    }
-    #l3{
-        padding-top: 10px;
-    }
-    #l4{
-        padding-top: 10px;
-    }
-    #l5{
-        padding-top: 13px;
+
+	#l1{
+		padding-top: 10px;
+	}
+	#l2{
+		padding-left: 10px;
+		padding-top: 10px;
+	}
+	#l3{
+		padding-top: 10px;
+	}
+	#l4{
+		padding-top: 10px;
+	}
+	#l5{
+		padding-top: 13px;
 		padding-right: 5px;
-    }
-    #l6{
-        padding-right: 10px;
-    }
-    #l7{
-        padding-right: 10px;
-    }
+	}
+	#l6{
+		padding-right: 10px;
+	}
+	#l7{
+		padding-right: 10px;
+	}
 	#l8{
 		padding-right: 20px;
 	}
 }
-

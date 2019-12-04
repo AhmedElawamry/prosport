@@ -106,7 +106,7 @@
             <div class="col-md-3 col-sm-3">
                 <div class="team-member">
                     <div class="team-img">
-                        <img src="https://image.freepik.com/free-photo/elegant-man-with-thumbs-up_1149-1595.jpg" alt="team member" class="img-responsive">
+                        <img src="css/img/magdy.jpg" alt="team member" class="img-responsive">
                     </div>
                     <!--<div class="team-hover">-->
                         <!--<div class="desk">-->
@@ -186,7 +186,7 @@
     </div>
 
     <a name="development-a"></a>
-    <div class="image-box" style="--image-url: url(img/i-3.jpg); margin-top: 50px">
+    <div class="image-box-2" style="--image-url: url(img/i-3.jpg); margin-top: 50px">
         <div class="container">
             <h2>Development and Management</h2>
             <p>With an experienced team of consultants and professionals we provide all the solutions to your sports
@@ -195,12 +195,12 @@
     </div>
 
     <a name="products-a"></a>
-    <div class="image-box" style="--image-url: url(img/i-4.jpg); margin-top: 50px">
+    <div class="image-box-2" style="--image-url: url(img/i-4.jpg); margin-top: 50px">
         <div class="container">
             <h2>Products</h2>
             <p>Prosport, the home of sports products. In prosport,  we aim to provide our customers high quality products,
                 amongst the biggest collection, at a very competitive pricing, delivering a premium service.</p>
-                <button type="submit" class="btn btn-lg ">
+                <button type="submit" class="btn btn-lg">
                     <a href="products.html" style="color: white">Show More</a>
                 </button>
 
@@ -208,42 +208,144 @@
     </div>
 
     <a name="courses-a"></a>
-    <div class="image-box" style="--image-url: url(img/i-2.jpg); margin-top: 50px">
+    <div class="image-box-2" style="--image-url: url(img/i-2.jpg); margin-top: 50px">
         <div class="container">
             <h2>Courses</h2>
             <p>In Prosport we provide courses the clever way, with highly experienced instructors, and fully equipped
                 premises, excellence in guaranteed</p>
-            <button type="submit" class="btn btn-lg ">
+            <button class="toggle btn btn-lg ">
                 <a href="#courses-a" style="color: white">Sign Up</a>
             </button>
+            <div id="target">
+                <form role="form" method="post" action="courses-contact.php">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-sm-3 form-group">
+                                <label for="name">
+                                    Your Name:</label>
+                                <input type="text" class="form-control" id="name" name="name" required="">
+                            </div>
+                            <div class="col-sm-3 form-group">
+                                <label for="email">
+                                    Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" required="">
+                            </div>
+                            <div class="col-sm-3 form-group">
+                                <label for="phone">
+                                    Phone:</label>
+                                <input type="number" class="form-control" id="phone" name="phone" required="">
+                            </div>
+                            <div class="col-sm-3 form-group">
+                                <label for="academy-dd">
+                                    Courses: </label>
+                                <select name="select course" class="form-control">
+                                </select>
+                            </div>
+                            <div class="row" style="left: 45.5%">
+                                <div class="col-sm-12" >
+                                    <button type="submit" class="btn btn-lg btn-default pull-right">Send →</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 
+
     <a name="academy-a"></a>
-    <div class="image-box" style="--image-url: url(img/i-5.jpg); margin-top: 50px">
+    <div class="image-box-2" style="--image-url: url(img/i-5.jpg); margin-top: 50px">
         <div class="container">
             <h2>Sports Academy</h2>
             <p>In Prosport sports academy, we provide we provide academies that stands out from the rest, with highly
                 experienced instructors, state-of-art equipment and fully maintained premises, prosport aims to provide nothing
                 but excellence</p>
-            <button type="submit" class="btn btn-lg ">
-                <a href="#academy-a" style="color: white">Sign Up</a>
+            <button class="toggle-2 btn btn-lg ">
+                <a style="color: white">Sign Up</a>
             </button>
+            <div id="target-2">
+                <form role="form" method="post" action="academy-contact.php">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-sm-3 form-group">
+                                <label for="name">
+                                    Your Name:</label>
+                                <input type="text" class="form-control" name="name" required="">
+                            </div>
+                            <div class="col-sm-3 form-group">
+                                <label for="email">
+                                    Email:</label>
+                                <input type="email" class="form-control"  name="email" required="">
+                            </div>
+                            <div class="col-sm-3 form-group">
+                                <label for="phone">
+                                    Phone:</label>
+                                <input type="number" class="form-control"  name="phone" required="">
+                            </div>
+                            <div class="col-sm-3 form-group">
+                                <label for="academy-list">
+                                    Branches: </label>
+                                <select name="select Branch" class="form-control">
+                                    <option value="Zayed">Sheikh Zayed</option>
+                                </select>
+                            </div>
+
+
+                            <div class="row" style="left: 45.5%">
+                                <div class="col-sm-12" >
+                                    <button type="submit" class="btn btn-lg btn-default pull-right">Send →</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 
     <a name="events-a"></a>
-    <div class="image-box" style="--image-url: url(img/i-6.jpg); margin-top: 50px">
+    <div class="image-box-2" style="--image-url: url(img/i-6.jpg); margin-top: 50px">
         <div class="container">
             <h2>Sports Events</h2>
             <p>Stay tuned for prosport events, we strive to organise multiple events through the year to gather like-minded
                 people. Sign up for our news letters to get notified of upcoming events.</p>
-            <button type="submit" class="btn btn-lg ">
-                <a href="#events-a" style="color: white">Join Now</a>
+            <button class="toggle-3 btn btn-lg ">
+                <a style="color: white">Sign Up</a>
             </button>
+            <div id="target-3">
+                <form role="form" method="post" action="newsletter.php">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4 form-group">
+                                <label for="name">
+                                    Your Name:</label>
+                                <input type="text" class="form-control"  name="name" required="">
+                            </div>
+                            <div class="col-sm-4 form-group">
+                                <label for="email">
+                                    Email:</label>
+                                <input type="email" class="form-control"  name="email" required="">
+                            </div>
+                            <div class="col-sm-4 form-group">
+                                <label for="phone">
+                                    Phone:</label>
+                                <input type="number" class="form-control"  name="phone" required="">
+                            </div>
+
+                            <div class="row" style="left: 45.5%">
+                                <div class="col-sm-12" >
+                                    <button type="submit" class="btn btn-lg btn-default pull-right">Send →</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
-
 </section>
 
 <section class="contactus" >
@@ -302,7 +404,7 @@
             </div>
             <div class="col-md-6 mt-5 form_container">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13813.045322167383!2d30.9897176!3d30.0580428!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x21b4f50220c851ad!2sPro%20Sports%20Egypt!5e0!3m2!1sen!2seg!4v1575313729809!5m2!1sen!2seg" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                <p style="letter-spacing: 2px"><img style="" src="https://img.icons8.com/ios/16/000000/phone.png">+20 23804431 </p>
+                <a style="letter-spacing: 2px; color: black; " class="cti" href="tel:1-408-555-5555"><img src="https://img.icons8.com/ios/16/000000/phone.png">+20 23804431 </a>
                 <p><img src="https://img.icons8.com/material-outlined/16/000000/marker.png">Villa 5, Neighborhood 3, District 13</p>
                 <p class="pl-3">El-Sheikh Zayed City, Giza</p>
                 <p class="pl-3">Egypt</p>
