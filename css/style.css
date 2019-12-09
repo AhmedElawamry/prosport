@@ -40,9 +40,7 @@ p{
     box-shadow: 0 0 4px grey;
     border-bottom: none;
 }
-/* .navbar ul{
-    left:10%;
-} */
+
 
 
 /*******************homepage********************/
@@ -69,7 +67,7 @@ p{
 .about-us{
     margin:auto;
     padding-top: 100px;
-    background-color: rgba(60, 66, 69, 0.7);
+    background-color: rgba(60, 66, 69, 0.4);
 
 
 }
@@ -203,7 +201,7 @@ p{
 /*****************cn-items*********************/
 .image-box {
     /* Here's the trick */
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), var(--image-url) center center;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)), var(--image-url) center center;
 
     /* Here's the same styles we applied to our content-div earlier */
     color: white;
@@ -247,7 +245,7 @@ p{
 }
 .image-box-2 {
     /* Here's the trick */
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), var(--image-url) center center;
+    background: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.5)), var(--image-url) center center;
 
     /* Here's the same styles we applied to our content-div earlier */
     color: white;
@@ -318,6 +316,7 @@ p{
 
 
 
+
 @media screen and (max-width: 580px){
     body{
         background-color: white;
@@ -327,5 +326,6 @@ p{
     }
     .team-img{
         width: 70%;
+        left: 15%
     }
 }
