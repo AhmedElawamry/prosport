@@ -17,14 +17,14 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-sm navbar-light fixed-top">
-    <div class="container" style="margin-left: 5%;">
+    <div class="container" >
         <a class="navbar-brand" href="#"><img src="css/img/logo.png"></a>
         <button class="navbar-toggler d-lg-none float-left" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
                 aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse " id="collapsibleNavId" style="margin-left: 80%">
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0 float-right">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -41,26 +41,23 @@
 </nav>
 
 <section class="home-page" id="homepage">
-    <div class="image-box" style="--image-url: url(img/home-bg.jpg); ">
-        <div class=" container">
-            <div class="row">
-                <div id="wrapper">
-                        <button class="cn-button" id="cn-button"><img src="css/img/logo.png"></button>
-                    <div class="cn-wrapper opened-nav" id="cn-wrapper">
-                        <ul>
-                            <li><a id="l1" href="#counseling-a"><span style="transform: rotate(98deg) skew(180deg); text-align: center; position: relative; padding-left: 5%">COUNSELING</span></a></li>
-                            <li><a href="#development-a">
-                                <span id="l2" style="transform: rotate(58deg) skew(180deg); text-align: center; position: relative; padding-top: 2%">DEVELOPMENT</span>
-                                <span id="l3" style="transform: rotate(58deg) skew(180deg);text-align: center; position: relative; padding-right: 8%; padding-top: 2%">& MANAGEMENT</span></a></li>
-                            <li><a id="l4" href="#products-a"><span style="transform: rotate(18deg) skew(180deg); text-align: center; position: relative; padding-top: 3%">PRODUCTS</span></a></li>
-                            <li><a  href="#courses-a" style="padding-top: 3%; padding-right: 4%"><span id="l5" style="transform: rotate(-23deg) skew(180deg); text-align: center; position: relative ">COURSES</span></a></li>
-                            <li><a id="l6" href="#academy-a"><span style="transform: rotate(-63deg) skew(180deg); text-align: center; position: relative;padding-right: 6%; padding-bottom: 2%">SPORTS</span>
-                                <span id="l7" style="transform: rotate(-63deg) skew(180deg); text-align: center; position: relative;padding-left: 6%">ACADEMY</span></a></li>
-                            <li><a href="#events-a"><span id="l8" style="transform: rotate(-103deg) skew(180deg); text-align: center; position: relative; padding-bottom: 6%">SPORT EVENT</span></a></li>
-                        </ul>
-                    </div>
-                </div>
+    <div class="image-box" style="--image-url: url(img/home-bg.jpg);">
+        <div class=" component">
+            <button class="cn-button" id="cn-button"><img src="css/img/logo.png"></button>
+            <div class="cn-wrapper opened-nav" id="cn-wrapper">
+                <ul>
+                    <li><a id="l1" href="#counseling-a"><span style="transform: rotate(98deg) skew(180deg); text-align: center; position: relative; padding-left: 5%">COUNSELING</span></a></li>
+                    <li><a href="#development-a">
+                        <span id="l2" style="transform: rotate(58deg) skew(180deg); text-align: center; position: relative; padding-top: 2%">DEVELOPMENT</span>
+                        <span id="l3" style="transform: rotate(58deg) skew(180deg);text-align: center; position: relative; padding-right: 8%; padding-top: 2%">& MANAGEMENT</span></a></li>
+                    <li><a id="l4" href="#products-a"><span style="transform: rotate(18deg) skew(180deg); text-align: center; position: relative; padding-top: 3%">PRODUCTS</span></a></li>
+                    <li><a  href="#courses-a" style="padding-top: 3%; padding-right: 4%"><span id="l5" style="transform: rotate(-23deg) skew(180deg); text-align: center; position: relative ">COURSES</span></a></li>
+                    <li><a id="l6" href="#academy-a"><span style="transform: rotate(-63deg) skew(180deg); text-align: center; position: relative;padding-right: 6%; padding-bottom: 2%">SPORTS</span>
+                            <span id="l7" style="transform: rotate(-63deg) skew(180deg); text-align: center; position: relative;padding-left: 6%">ACADEMY</span></a></li>
+                    <li><a href="#events-a"><span id="l8" style="transform: rotate(-103deg) skew(180deg); text-align: center; position: relative; padding-bottom: 6%">SPORT EVENT</span></a></li>
+                </ul>
             </div>
+
         </div>
     </div>
 </section>
@@ -84,8 +81,9 @@
             <div class="col-md-3 col-sm-3">
                 <div class="team-member">
                     <div class="team-img">
-                        <img src="https://image.freepik.com/free-photo/elegant-man-with-thumbs-up_1149-1595.jpg" alt="team member" class="img-responsive">
+                        <img src="css/img/magdy.jpg" alt="team member" class="img-responsive">
                     </div>
+                    <>
                     <!--<div class="team-hover">-->
                         <!--<div class="desk">-->
                             <!--<h4>Hello World</h4>-->
@@ -106,7 +104,7 @@
             <div class="col-md-3 col-sm-3">
                 <div class="team-member">
                     <div class="team-img">
-                        <img src="css/img/magdy.jpg" alt="team member" class="img-responsive">
+                        <img src="css/img/medhat.jpg" alt="team member" class="img-responsive">
                     </div>
                     <!--<div class="team-hover">-->
                         <!--<div class="desk">-->
@@ -404,14 +402,25 @@
             </div>
             <div class="col-md-6 mt-5 form_container">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13813.045322167383!2d30.9897176!3d30.0580428!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x21b4f50220c851ad!2sPro%20Sports%20Egypt!5e0!3m2!1sen!2seg!4v1575313729809!5m2!1sen!2seg" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                <a style="letter-spacing: 2px; color: black; " class="cti" href="tel:1-408-555-5555"><img src="https://img.icons8.com/ios/16/000000/phone.png">+20 23804431 </a>
-                <p><img src="https://img.icons8.com/material-outlined/16/000000/marker.png">Villa 5, Neighborhood 3, District 13</p>
+                <a style="letter-spacing: 2px; color: black; " class="cti" href="tel:+2 023 8044 31"><img src="https://img.icons8.com/ios/16/000000/phone.png">+20 23804431 </a>
+                <a style="letter-spacing: 2px; color: black; " class="cti" href="tel:+20 111 0177 786"><img src="https://img.icons8.com/ios/16/000000/phone.png">+20 111017786 </a>
+                <p><img src="https://img.icons8.com/material-outlined/16/000000/marker.png">Villa 5, Neighborhood 1, District 13</p>
                 <p class="pl-3">El-Sheikh Zayed City, Giza</p>
                 <p class="pl-3">Egypt</p>
+                <div class="row">
+                    <a href="https://www.facebook.com/ProSportsEG/" style="left: 5%; font-family: font"><img src="https://img.icons8.com/color/46/000000/facebook.png"></a>
+                    <a style="left: 10%; font-family: font"><img src="https://img.icons8.com/color/48/000000/instagram-new.png"></a>
+                    <a style="left: 15%; font-family: font"><img src="https://img.icons8.com/color/48/000000/twitter.png"></a>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
+<section>
+
+</section>
+
 
 <script src="js/polyfills.js"></script>
 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>

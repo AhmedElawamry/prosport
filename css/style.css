@@ -17,7 +17,10 @@ p{
     background-color: transparent;
     position: fixed;
     border-bottom: rgba(60, 66, 69, 0.7) solid 2px;
-
+    width: 100%;
+}
+.navbar-brand{
+    margin-left: 0;
 }
 .navbar-brand img{
     height: 60px;
@@ -37,24 +40,14 @@ p{
     box-shadow: 0 0 4px grey;
     border-bottom: none;
 }
-.navbar-toggler{
-    width: 47px;
-    height: 34px;
-    background-color: white;
-    border:none;
-}
-.navbar-toggler .line{
-    width: 100%;
-    float: left;
-    height: 2px;
-    background-color: white;
-    margin-bottom: 5px;
+.navbar ul{
+    left:10%;
 }
 
 
 /*******************homepage********************/
 .home-page{
-    background-image: url("../css/img/home-bg.jpg");
+
     height: 100vh;
     background-size: cover;
     position: relative;
@@ -66,7 +59,7 @@ p{
 #wrapper>div {
     display: inline-block;
     width: 100%; /* of wrapper width */
-    margin: auto;
+
     text-align: left;
 }
 
@@ -93,10 +86,12 @@ p{
     font-size: 28px;
 }
 .about-us p{
+    font-family: font;
     color: black;
     text-align: center;
     width: 100%;
     box-shadow: #939598;
+    font-size: 18px;
 
 }
 
@@ -212,7 +207,7 @@ p{
 
     /* Here's the same styles we applied to our content-div earlier */
     color: white;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -256,7 +251,7 @@ p{
 
     /* Here's the same styles we applied to our content-div earlier */
     color: white;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -321,13 +316,7 @@ p{
 }
 
 
-@media screen and (max-width: 25em) {
 
-    .codrops-icon span {
-        display: none;
-    }
-
-}
 
 @media screen and (max-width: 580px){
     body{
@@ -338,6 +327,5 @@ p{
     }
     .team-img{
         width: 70%;
-        left: 15%
     }
 }
